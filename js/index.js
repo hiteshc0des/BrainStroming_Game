@@ -81,7 +81,7 @@ const startTimer = () => {
   let seconds = 0;
   timer = setInterval(() => {
     seconds++;
-    if (seconds === 35) {
+    if (seconds === 30) {
       seconds = 0;
       minutes++;
       if (minutes === 1) {
